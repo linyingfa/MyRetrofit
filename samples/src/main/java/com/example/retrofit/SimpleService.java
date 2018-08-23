@@ -45,7 +45,7 @@ public final class SimpleService {
                 @Path("repo") String repo);
     }
 
-    public static void main(String... args) throws IOException {
+    public static void main(String[] args) throws IOException {
         // Create a very simple REST adapter which points the GitHub API.
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(API_URL)
